@@ -1,0 +1,25 @@
+[{
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/piazza-del-duomo.jpg?alt=media&token=8971f1ef-3d51-433a-9ef4-4d8e9e238ae0",
+	"title": "Piazza del Duomo",
+    "text": "La cara de presentación de Florencia. Las reconocidas edificaciones que allí se encuentran, son de los principales puntos de interés turísticos."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/piazza-della-signoria.jpg?alt=media&token=6e6b0b3b-b26d-41b9-a20e-f037038d6049",
+	"title": "Piazza della Signorina",
+    "text": "Plaza de la Señoría es la más importante de Florencia. Está situada entre la Piazza del Duomo y el río Arno. Es el centro del poder civil y la zona más animada."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/uffizi.jpg?alt=media&token=ed845a02-2cf8-4e7b-9947-0bb712260a28",
+	"title": "Galería Uffizi",
+    "text": "Una de las colecciones de pintura más ricas y famosas del mundo. Con cuadros como El Nacimiento de Venus de Botticelli, es el lugar más visitado."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/galeria-acedmia.jpg?alt=media&token=eaa60a87-2897-4454-a471-70ebd9fa64ef",
+	"title": "Galería de la Academia",
+    "text": "Con una gran colección de escultura, pintura e instrumentos musicales, destaca por albergar una de las esculturas más famosas: David de Miguel Ángel."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/palazzo-vecchio.jpg?alt=media&token=cda67784-75f4-43f4-a38d-81108da08c1e",
+	"title": "Palazzo Vecchio",
+    "text": "Con una decoración que recuerda a los palacios venecianos y una arquitectura que define la ciudad, el Palacio es una de las visitas más interesantes."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/puente-viejo.jpg?alt=media&token=2e72630c-a5f3-466b-94c4-91fa1359af5e",
+	"title": "Ponte Vecchio",
+    "text": "Con sus casas y tiendas colgantes, es uno de los puentes más famosos del mundo. Como curiosidad, es el puente de piedra más antiguo de Europa."
+}]

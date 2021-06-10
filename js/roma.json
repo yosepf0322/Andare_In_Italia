@@ -1,0 +1,25 @@
+[{
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/coliseo-romano.jpg?alt=media&token=5cdbee59-67c9-4d3e-b863-aab93d83d46b",
+	"title": "Coliseo Romano",
+    "text": "Llamado en la antigüedad Anfiteatro Flavio, es el anfiteatro más grande construido durante el Imperio Romano y el monumento más impresionante de Roma."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/foro-romano.jpg?alt=media&token=d26bf367-6498-44ec-8836-44b905fc560f",
+	"title": "Foro Romano",
+    "text": "El Foro representaba el centro primordial de la antigua Roma. En este lugar se desarrollaba la vida pública, cultural y económica de la época republicana y el Imperio."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/fontana-trevi.jpg?alt=media&token=ea87da00-7c7c-440c-80ac-c6e3f9954dd2",
+	"title": "Fontana de Trevi",
+    "text": "¿Te han dicho que debes lanzar una moneda a la Fontana de Trevi y no sabes por qué? <br> Conoce la historia y el mito de la fuente más bonita de Roma y de todo el mundo."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/capilla-sixtina.jpg?alt=media&token=bf9104ed-d14b-4b76-b141-5b6fea28c103",
+	"title": "Capilla Sixtina",
+    "text": "Considerada como la obra maestra de Michelangelo Buonarroti, la Capilla Sixtina es uno de los mayores tesoros del Vaticano, de Roma y del mundo en general."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/plaza-espa%C3%B1a.jpg?alt=media&token=400c940c-f9db-487d-9a0c-4e4b366d80a5",
+	"title": "Plaza de España",
+    "text": "Es uno de los lugares más concurridos de Roma. Su monumental escalinata es lugar de encuentro de romanos y turistas y ha sido escenario de un sinfín de películas."
+}, {
+	"img": "https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/plaza-navona.jpg?alt=media&token=b4838e5d-f9bf-4da1-aa12-5d88a852db08",
+	"title": "Plaza Navona",
+    "text": "Dotada de un estilo barroco elegante, es una de las plazas más bonitas y populares. Sin duda su mayor atractivo son las tres fuentes construidas bajo el mandato de Gregorio XIII."
+}]

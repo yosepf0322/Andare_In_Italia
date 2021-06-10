@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roma</title>
+    <link rel="icon" type="image/svg+xml" href="img/roma.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylei.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div id="contimg">
+        <img class="imghd" src="img/romapg.png" alt="Roma">
+        <h1 id="titlehd">Roma</h1>
+    </div> <br>
+
+    <div class="container">
+        <p class="marginpg" id="intro">La llamada Ciudad Eterna, por los monumentos que en ella se encuentran y que han
+            perdurado desde el antiguo Imperio romano, es una de las ciudad con más historia de Europa. <br> <br>
+            Un paseo por Roma es un viaje al pasado donde podemos conocer de primera mano las reliquias heredadas de sus
+            diferentes épocas de máximo esplendor: el foro, el Coliseo, el panteón de Agripa, el arco de Constantino,
+            entre otros. <br> <br>
+            El hecho de que el pequeño Estado del Vaticano se encuentre dentro de la ciudad de Roma ha provocado que
+            esta también sea
+            conocida como la capital de dos Estados, este último considerado como el corazón de la iglesia católica.
+            <br> <br>
+        </p>
+    </div> <br> <br>
+
+    <div class="container">
+        <h1 class="marginpg text-center subtitle">Principales atracciones turísticas</h1>
+    </div> <br>
+
+    <div class="container">
+        <div class="row text-center marginpg" id="cards-roma">
+        </div>
+    </div> <br> <br>
+
+    <div class="container">
+        <h1 class="marginpg text-center subtitle">¿Qué visitar?</h1>
+    </div> <br> <br>
+
+
+    <div class="container">
+        <div class="col-12">
+            <div id="map"></div>
+        </div>
+    </div>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3HTGbR2g2fA9AMdMoXbAIYMz2dIONoFs&callback=iniciaMapa"
+        async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/roma.js"></script>
+</body>
+
+</html>
