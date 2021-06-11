@@ -110,7 +110,7 @@ function borraMarcadores() {
 } */
 
 window.onload = function () {
-    fetch('../js/florencia.json')
+    fetch('florencia.json')
         .then(function (response) {
             response.json().then(function (datos) {
                 datos.forEach(item => {
