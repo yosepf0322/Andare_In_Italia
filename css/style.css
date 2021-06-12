@@ -91,7 +91,7 @@ body {
 
 #btncomenzar{
     position: absolute;
-    bottom:  280px;
+    bottom: 200px;
     right: 130px;
     background: linear-gradient(180deg, #35c1cf 0%, #22a7d4 100%);
     color: #fff;
@@ -217,7 +217,47 @@ h3{
     position: relative;
     display: inline-block;
     text-align: center;
+    
 }  
 
+@media (max-width: 700px) {
+    #titlehd{
+        position: absolute;
+        top: 200px;
+        right: 40px;
+        text-align: center;
+        font-size: 40px;
+        color: #166f91;
+        font-weight: 600;
+        font-family: 'Signika Negative', sans-serif;
+    }
+    
+    #titlehd2{
+        position: absolute;
+        top: 260px;
+        right: 60px;
+        text-align: center;
+        font-size: 40px;
+        color: #166f91;
+        font-weight: 600;
+        font-family: 'Kaushan Script', cursive;
+    }
+
+    #btncomenzar{
+        position: absolute;
+        bottom: 210px;
+        right: 40px;
+        background: linear-gradient(180deg, #35c1cf 0%, #22a7d4 100%);
+        color: #fff;
+        border-radius: 25px;
+    }
+    
+    #imghd{
+        width: 100%;
+        height: 50vh;
+        margin-top: 400px;
+        text-align: center;
+    }
+}
 
 
