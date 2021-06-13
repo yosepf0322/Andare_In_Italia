@@ -248,7 +248,7 @@ function iniciaMapa() {
     var propiedades = {
         center: {
             lat: 45.4384793, lng: 12.3332286
-        },
+        }, 
         zoom: 7,
         mapTypeControlOptions: {
             mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'style_map']
@@ -256,7 +256,7 @@ function iniciaMapa() {
     };
 
     const mapa = document.getElementById("mapa")
-    const map = new google.maps.Map(mapa, propiedades)
+    const map = new google.maps.Map(mapa,propiedades)
     map.mapTypes.set('style_map', styledMapType);
     map.setMapTypeId('style_map');
 
@@ -383,11 +383,11 @@ function borraMarcadores() {
 } */
 
 window.onload = function () {
-    fetch('venecia.json')
+    fetch('florencia.json')
         .then(function (response) {
             response.json().then(function (datos) {
                 datos.forEach(item => {
-                    document.getElementById('cards-venecia').innerHTML += `
+                    document.getElementById('cards-florencia').innerHTML +=  `
                 <div class="col-lg-4 col-md-6 card-container">
                 <div class="card card-flip">
                     <div class="front card-block">
@@ -402,4 +402,4 @@ window.onload = function () {
                 });
             });
         });
-};
+}
