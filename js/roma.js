@@ -14,7 +14,8 @@ function iniciaMapa() {
         position: {
             lat: 41.89193, lng : 12.51133
         },
-        map
+        icon: "./img/location.png",
+        map: map
     });
 
     marker.addListener();
