@@ -252,7 +252,7 @@ function iniciaMapa() {
         },
         zoom: 7,
         mapTypeControlOptions: {
-            mapTypeIds: ['roadmap', 'style_map']
+            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'style_map']
         }
     };
 
