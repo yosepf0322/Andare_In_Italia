@@ -2,8 +2,8 @@ function iniciaMapa() {
 
     var propiedades = {
         center: {
-            lat: 44.8226631, lng : 11.6195071
-        },
+            lat: 43.77925, lng : 11.24626
+        }, 
         zoom: 7
     };
 
@@ -12,7 +12,7 @@ function iniciaMapa() {
 
     const marker = new google.maps.Marker({
         position: {
-            lat: 44.8226631, lng : 11.6195071
+            lat: 43.77925, lng : 11.24626
         },
         /* icon: "./coronavirus.png", */
         map: map
