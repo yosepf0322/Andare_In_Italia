@@ -1,3 +1,25 @@
+function iniciaMapa() {
+
+    var propiedades = {
+        center: {
+            lat: 41.8933584, lng : 12.4306148
+        },
+        zoom: 12
+    };
+
+    const mapa = document.getElementById("mapa")
+    const map = new google.maps.Map(mapa,propiedades)
+
+    const marker = new google.maps.Marker({
+        position: {
+            lat: 41.8933584, lng : 12.4306148
+        },
+        map
+    });
+
+    marker.addListener();
+}
+
 $(document).ready(function () {
     var front = document.getElementsByClassName("front");
     var back = document.getElementsByClassName("back");
@@ -109,16 +131,6 @@ function borraMarcadores() {
     }
 } */
 
-function iniciaMapa() {
-    var coordenadas ={
-        lat : 41.8933584, lng : 12.4306148
-    }
-    var map = new google.maps.Map(document.getElementById('mapa'),
-    {
-        center : coordenadas,
-        zoom: 12
-    });
-}
 
 window.onload = function () {
     fetch('roma.json')

@@ -19,9 +19,9 @@ body {
 #mapa {
     width: 80%; 
     height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contimg{
