@@ -36,29 +36,11 @@ function iniciaMapa() {
                 ]
             },
             {
-                "featureType": "administrative.country",
-                "elementType": "geometry.fill",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
-            },
-            {
                 "featureType": "administrative.land_parcel",
                 "elementType": "geometry.stroke",
                 "stylers": [
                     {
                         "color": "#dcd2be"
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative.land_parcel",
-                "elementType": "labels",
-                "stylers": [
-                    {
-                        "visibility": "off"
                     }
                 ]
             },
@@ -91,75 +73,10 @@ function iniciaMapa() {
             },
             {
                 "featureType": "poi",
-                "elementType": "labels.text",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi",
                 "elementType": "labels.text.fill",
                 "stylers": [
                     {
                         "color": "#93817c"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.attraction",
-                "elementType": "geometry.fill",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.attraction",
-                "elementType": "geometry.stroke",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.attraction",
-                "elementType": "labels.text",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.attraction",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.attraction",
-                "elementType": "labels.text.stroke",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    },
-                    {
-                        "weight": 1.5
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.business",
-                "stylers": [
-                    {
-                        "visibility": "off"
                     }
                 ]
             },
@@ -169,15 +86,6 @@ function iniciaMapa() {
                 "stylers": [
                     {
                         "color": "#a5b076"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.park",
-                "elementType": "labels.text",
-                "stylers": [
-                    {
-                        "visibility": "off"
                     }
                 ]
             },
@@ -264,15 +172,6 @@ function iniciaMapa() {
             },
             {
                 "featureType": "road.local",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
-            },
-            {
-                "featureType": "road.local",
-                "elementType": "labels",
                 "stylers": [
                     {
                         "visibility": "off"
