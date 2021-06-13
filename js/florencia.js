@@ -1,3 +1,26 @@
+function iniciaMapa() {
+
+    var propiedades = {
+        center: {
+            lat: 44.8226631, lng : 11.6195071
+        },
+        zoom: 7
+    };
+
+    const mapa = document.getElementById("mapa")
+    const map = new google.maps.Map(mapa,propiedades)
+
+    const marker = new google.maps.Marker({
+        position: {
+            lat: 44.8226631, lng : 11.6195071
+        },
+        /* icon: "./coronavirus.png", */
+        map: map
+    });
+
+    marker.addListener();
+}
+
 $(document).ready(function () {
     var front = document.getElementsByClassName("front");
     var back = document.getElementsByClassName("back");

@@ -2,9 +2,9 @@ function iniciaMapa() {
 
     var propiedades = {
         center: {
-            lat: 41.8933584, lng : 12.4306148
+            lat: 41.909986, lng : 12.3959139
         },
-        zoom: 12
+        zoom: 7
     };
 
     const mapa = document.getElementById("mapa")
@@ -12,7 +12,7 @@ function iniciaMapa() {
 
     const marker = new google.maps.Marker({
         position: {
-            lat: 41.8933584, lng : 12.4306148
+            lat: 41.909986, lng : 12.3959139
         },
         map
     });
