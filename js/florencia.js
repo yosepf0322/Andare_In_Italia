@@ -14,7 +14,7 @@ function iniciaMapa() {
         position: {
             lat: 43.7687, lng : 11.2569
         },
-        /* icon: "./coronavirus.png", */
+        icon: "./img/location.png",
         map: map
     });
 

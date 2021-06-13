@@ -15,11 +15,13 @@
 
 <body>
     <div id="contimg">
-        <img id="imghd" src="img/italia_inicio.jpg">    
-        <img id="imghdmob" src="img/italia_bc.png">
+        <img class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="imghd" src="img/italia_inicio.jpg">
+        <img class="d-lg-none d-xl-block d-xl-none d-xxl-block d-xxl-none align-text-bottom" id="imghdmob"
+            src="img/italia_bc.png">
         <h1 id="titlehd">Bienvenid@ a</h1>
         <h1 id="titlehd2">Italia</h1>
-        <button type="button" class="btn btn-lg" id="btncomenzar" data-bs-toggle="modal" data-bs-target="#ModalIngresar">Comenzar</button>
+        <button type="button" class="btn btn-lg" id="btncomenzar" data-bs-toggle="modal"
+            data-bs-target="#ModalIngresar">Comenzar</button>
     </div> <br>
 
     <!-- Modal Ingresar -->
@@ -27,7 +29,8 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div class="login100-form-title" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/italia_ingresar.jpg?alt=media&token=a3fef000-acdf-4661-ac21-ed24f7af5a23)">
+                    <div class="login100-form-title"
+                        style="background-image: url(https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/italia_ingresar.jpg?alt=media&token=a3fef000-acdf-4661-ac21-ed24f7af5a23)">
                         <span class="inicio-titulo-1">
                             Inicia Sesión
                         </span>
@@ -49,9 +52,9 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <button type="submit" name="button" class="btn btn-outline-success"
-                                            class="btn btn-outline-success">
-                                            <i class="fas fa-sign-in-alt"></i>Ingresar
-                                        </button>
+                                        class="btn btn-outline-success">
+                                        <i class="fas fa-sign-in-alt"></i>Ingresar
+                                    </button>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <button type="submit" name="button" class="btn btn-outline-primary"
@@ -79,7 +82,8 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div class="login100-form-title" style="background-image: url(https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/italia_registro.jpg?alt=media&token=d18964a6-8f5a-4442-9985-22ec5ec56656)">
+                    <div class="login100-form-title"
+                        style="background-image: url(https://firebasestorage.googleapis.com/v0/b/andare-in-italia.appspot.com/o/italia_registro.jpg?alt=media&token=d18964a6-8f5a-4442-9985-22ec5ec56656)">
                         <span class="inicio-titulo-1">
                             Regístrate
                         </span>
@@ -88,19 +92,20 @@
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
                                     class="fas fa-user"></i></span>
-                            <input type="text" class="form-control" id="rnombre" required placeholder="Nombre" aria-label="Nombre">
+                            <input type="text" class="form-control" id="rnombre" required placeholder="Nombre"
+                                aria-label="Nombre">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
                                     class="fas fa-at"></i></span>
-                            <input type="email" class="form-control" id="rcorreo" required placeholder="Correo Electrónico"
-                                aria-label="Correo">
+                            <input type="email" class="form-control" id="rcorreo" required
+                                placeholder="Correo Electrónico" aria-label="Correo">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
                                     class="fas fa-unlock-alt"></i></span>
-                            <input type="password" class="form-control" id="rcontrasena" required placeholder="Contraseña"
-                                aria-label="Contraseña">
+                            <input type="password" class="form-control" id="rcontrasena" required
+                                placeholder="Contraseña" aria-label="Contraseña">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="basic-addon1" style="color: #3c636a;"><i
@@ -111,14 +116,12 @@
                         <div class="container-fluid" id="login">
                             <div class="row">
                                 <div class="col-12 col-sm-6">
-                                    <button type="submit" name="button" class="btn btn-outline-secondary"
-                                            class="btn btn-outline-success">
-                                            <i class="fas fa-sign-in-alt"></i>Ingresar
-                                        </button>
+                                    <button type="submit" name="button" class="btn btn-outline-success">
+                                        <i class="fas fa-sign-in-alt"></i>Ingresar
+                                    </button>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <button type="button" onclick="entrarGoogle()"
-                                        class="btn btn-outline-danger">
+                                    <button type="button" onclick="entrarGoogle()" class="btn btn-outline-danger">
                                         <i class="fa fa-google"></i> Google
                                     </button>
                                 </div>
@@ -154,7 +157,7 @@
 
     <script src="js/firebase.js"></script>
     <script src="js/autorizacion.js"></script>
-    
+
 
 </body>
 
