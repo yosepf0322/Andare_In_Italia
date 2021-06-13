@@ -383,11 +383,11 @@ function borraMarcadores() {
 } */
 
 window.onload = function () {
-    fetch('florencia.json')
+    fetch('venecia.json')
         .then(function (response) {
             response.json().then(function (datos) {
                 datos.forEach(item => {
-                    document.getElementById('cards-florencia').innerHTML +=  `
+                    document.getElementById('cards-venecia').innerHTML +=  `
                 <div class="col-lg-4 col-md-6 card-container">
                 <div class="card card-flip">
                     <div class="front card-block">
