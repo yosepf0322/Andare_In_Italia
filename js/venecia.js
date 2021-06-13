@@ -342,7 +342,7 @@ function iniciaMapa() {
                     }
                 ]
             }
-        ]
+        ],
         { name: 'Mapa Retro' }
     );
 
