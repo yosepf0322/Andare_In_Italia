@@ -348,7 +348,10 @@ function iniciaMapa() {
         center: {
             lat: 45.4384793, lng: 12.3332286
         },
-        zoom: 7
+        zoom: 7,
+        mapTypeControlOptions: {
+            mapTypeIds: ['roadmap', 'style_map']
+        }
     };
 
     const mapa = document.getElementById("mapa")
@@ -363,6 +366,9 @@ function iniciaMapa() {
     });
 
     marker.addListener();
+
+    map.mapTypes.set('style_map', styledMapType);
+    map.setMapTypeId('style_map');
 }
 
 $(document).ready(function () {
