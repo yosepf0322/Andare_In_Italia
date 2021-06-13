@@ -109,13 +109,24 @@ function borraMarcadores() {
     }
 } */
 
+function iniciaMapa() {
+    var coordenadas ={
+        lat : 41.8933584, lng : 12.4306148
+    }
+    var map = new google.maps.Map(document.getElementById('mapa'),
+    {
+        center : coordenadas,
+        zoom: 12
+    });
+}
+
 window.onload = function () {
     fetch('roma.json')
         .then(function (response) {
             response.json().then(function (datos) {
                 datos.forEach(item => {
                     document.getElementById('cards-roma').innerHTML +=  `
-                <div class="col-md-4 card-container">
+                <div class="col-lg-4 col-md-6 card-container">
                 <div class="card card-flip">
                     <div class="front card-block">
                         <img id="imgcard" src="${item.img}" class="card-img-top p-2">

@@ -115,7 +115,7 @@ window.onload = function () {
             response.json().then(function (datos) {
                 datos.forEach(item => {
                     document.getElementById('cards-florencia').innerHTML +=  `
-                <div class="col-md-4 card-container">
+                <div class="col-lg-4 col-md-6 card-container">
                 <div class="card card-flip">
                     <div class="front card-block">
                         <img id="imgcard" src="${item.img}" class="card-img-top p-2">
