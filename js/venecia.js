@@ -356,6 +356,8 @@ function iniciaMapa() {
 
     const mapa = document.getElementById("mapa")
     const map = new google.maps.Map(mapa, propiedades)
+    map.mapTypes.set('style_map', styledMapType);
+    map.setMapTypeId('style_map');
 
     const marker = new google.maps.Marker({
         position: {
@@ -365,10 +367,7 @@ function iniciaMapa() {
         map: map
     });
 
-    marker.addListener();
-
-    map.mapTypes.set('style_map', styledMapType);
-    map.setMapTypeId('style_map');
+    marker.addListener();    
 }
 
 $(document).ready(function () {
